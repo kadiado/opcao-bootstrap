@@ -41,39 +41,23 @@
 
 .nav-teste {
   height: 100px;
-  padding: 0 12% !important;
+  max-width: 80%;
+  /* padding: 0 12% !important; */
   background: #081e66;
+  margin: 0 auto !important;
 }
 
-/* .header-externo {
+.brand-custom {
+  margin-right: 0 !important;
+}
+
+.header-externo {
   width: 100%;
   background-color: #081e66;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 3.3rem;
-  left: 50%;
-  right: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-  padding: 30px 12%;
-} */
-
-/* .menu-interno {
-  width: 100%;
-  height: 130px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
-  margin: 0 12%;
-} */
+}
 
 .logo-header-img {
-  width: 14%;
+  width: 90%;
 }
 
 ul > li {
@@ -141,7 +125,8 @@ ul > li {
 
 .info-banner {
   /* margin-left: 12%; */
-  margin: 17% 10% 20% -2%;
+  margin: 17% 10% 20% 0;
+  max-width: 80%;
   text-align: left;
 }
 
@@ -189,22 +174,22 @@ ul > li {
 }
 
 .div-empreendimento {
-  position: absolute;
+  /* position: absolute;
   top: 125%;
   left: 50%;
-  right: 50%;
+  right: 50%; */
   width: 100%;
-  z-index: 1;
-  transform: translate(-50%, -50%);
+  margin-top: -8rem;
+  /* transform: translate(-50%, -50%); */
 }
 
 .carousel-indicators {
-  bottom: 18% !important;
+  bottom: 14% !important;
 }
 
 .carousel-indicators > li {
-  width: 15px !important;
-  height: 15px !important;
+  width: 13px !important;
+  height: 13px !important;
   border: 2px solid #fff !important;
   border-radius: 50px !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
@@ -215,6 +200,7 @@ ul > li {
 }
 
 .btn-empreendimento-box {
+  z-index: 99;
   width: 12rem;
   height: 12rem;
   background-color: #081e66;
@@ -229,6 +215,7 @@ ul > li {
 }
 
 .div-empreendimento-interna-btn {
+  z-index: 99;
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -236,20 +223,23 @@ ul > li {
 }
 
 .paragrafo-div-empreendimento {
+  position: relative;
+  z-index: 999;
   text-align: center;
   color: white;
   font-family: Campton-book;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.6rem;
 }
 
 .paragrafo-btn-empreendimento {
+  z-index: 99;
   font-family: Campton-extra-bold;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
-  line-height: 2.5rem;
-  margin: 0;
+  line-height: 2.1rem;
+  margin: 0 0 -0.1rem;
 }
 
 .btn-clique-aqui {
